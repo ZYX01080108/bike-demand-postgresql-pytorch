@@ -1,0 +1,12 @@
+{
+  "observed_rows": 17379,
+  "unrecorded_hours": 165,
+  "first_hour": "2011-01-01 00:00:00",
+  "last_hour": "2012-12-31 23:00:00",
+  "split_counts": {
+    "train": 13003,
+    "test": 2888,
+    "validation": 1488
+  },
+  "missing_values": 0
+}

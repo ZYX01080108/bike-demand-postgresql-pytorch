@@ -1,0 +1,41 @@
+{
+  "run_id": "6bf32042f67841f39a0f66ef4b4b0a16",
+  "seed": 7,
+  "train_rows": 13003,
+  "validation_rows": 1488,
+  "test_rows": 2888,
+  "feature_count": 53,
+  "parameter_count": 5569,
+  "epochs_run": 74,
+  "best_epoch": 54,
+  "validation_mae_at_best_epoch": 46.83331298828125,
+  "test_scores": {
+    "training_mean": {
+      "mae": 171.18769536563372,
+      "rmse": 229.43402640259106
+    },
+    "workingday_hour_mean": {
+      "mae": 101.91415783735953,
+      "rmse": 147.05665220090086
+    },
+    "mlp": {
+      "mae": 52.700408935546875,
+      "rmse": 76.343017578125
+    }
+  },
+  "test_mae_improvement_vs_group_baseline_percent": 48.28941331228069,
+  "sql_mae_verified": true,
+  "split": {
+    "train": "before 2012-07-01",
+    "validation": "2012-07-01 to 2012-08-31",
+    "test": "2012-09-01 to 2012-12-31"
+  },
+  "weather_assumption": "Observed same-hour weather; retrospective conditional prediction, not a deployed future forecast.",
+  "versions": {
+    "python": "3.11.9",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.4.0",
+    "pandas": "3.0.6",
+    "psycopg": "3.3.6"
+  }
+}

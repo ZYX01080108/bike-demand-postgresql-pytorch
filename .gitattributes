@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.pt binary
+data/hour.csv -text
+data/Readme_uci.txt -text
